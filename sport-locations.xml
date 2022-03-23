@@ -1,0 +1,50 @@
+<?xml version = "1.0"?>
+<resort>
+   <sport-location>
+      <name>Loc1</name>
+      <typeid>1</typeid>
+   </sport-location>
+   
+   <sport-location>
+      <name>Loc2</name>
+      <typeid>0</typeid>
+   </sport-location>
+   <sport-location>
+      <name>Loc3</name>
+      <typeid>1</typeid>
+   </sport-location>
+   
+   <accomodation-location>
+      <name>AccLoc1</name>
+      <typeid>1</typeid>
+      <capacity>200</capacity>
+  </accomodation-location>
+   
+   <accomodation-location>
+      <name>AccLoc2</name>
+      <typeid>3</typeid>
+      <capacity>300</capacity>
+  </accomodation-location>
+  
+  <accomodation-location>
+      <name>AccLoc3</name>
+      <typeid>4</typeid>
+      <capacity>600</capacity>
+  </accomodation-location>
+  
+  <accomodation-location>
+      <name>AccLoc2</name>
+      <typeid>1</typeid>
+      <capacity>20</capacity>
+  </accomodation-location>
+  
+  <tourist>
+  <location>AccLoc3</location>
+  <sports>
+  	<sport>
+  		<name>Sport1</name>
+  		<roleid>0</roleid>
+  	</sport>
+  </sports>
+  </tourist>
+</resort>
